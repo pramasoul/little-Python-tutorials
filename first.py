@@ -9,7 +9,7 @@ def hello():
     >>> hello()
     'Hello, world!'
     """
-    return 'what goes here?'
+    return 'FixMe'
 
 def this_plus_that(a,b):
     """
@@ -20,7 +20,7 @@ def this_plus_that(a,b):
     >>> this_plus_that('foo', 'bar')
     'foobar'
     """
-    return 'Wrong'
+    return 'FixMe'
 
 def triple(a):
     """
@@ -29,9 +29,20 @@ def triple(a):
     >>> triple('7')
     '777'
     """
-    return 'Wrong'
+    return 'FixMe'
 
 
+def last_letter(s):
+    """
+    >>> last_letter("foobar")
+    'r'
+    >>> last_letter("x")
+    'x'
+    >>> last_letter("The quick brown fox jumped over the lazy dog.")
+    '.'
+    """
+    return 'FixMe'
+    
 def _test():
     import doctest
     doctest.testmod()
